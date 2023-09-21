@@ -8,14 +8,14 @@ sudo useradd \
     --shell /bin/false node_exporter
 
 #download Node Exporter
-wget https://github.com/prometheus/node_exporter/releases/download/v1.4.0/node_exporter-1.4.0.linux-amd64.tar.gz
+wget https://github.com/prometheus/node_exporter/releases/download/v1.6.1/node_exporter-1.6.1.linux-amd64.tar.gz
 
 #extract node exporter
-tar -xvf node_exporter-1.4.0.linux-amd64.tar.gz
+tar -xvf node_exporter-1.6.1.linux-amd64.tar.gz
 
 #move the binary to /usr/local/bin
 sudo mv \
-  node_exporter-1.4.0.linux-amd64/node_exporter \
+  node_exporter-1.6.1.linux-amd64/node_exporter \
   /usr/local/bin/
 
 #Clean up, delete node_exporter archive and a folder.

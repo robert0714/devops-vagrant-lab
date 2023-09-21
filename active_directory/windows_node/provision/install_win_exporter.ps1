@@ -1,4 +1,4 @@
-$version = "0.16.0"
+$version = "0.23.1"
 
 $AgentURL = "https://github.com/prometheus-community/windows_exporter/releases/download/v${version}/windows_exporter-${version}-386.msi"
 $AbsoluteCurrPath = $(Get-Location).Path

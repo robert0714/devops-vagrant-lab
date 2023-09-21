@@ -3,7 +3,7 @@
 # msiexec on it from there.
 
 $puppet_master_server = "puppetmaster.msx.local"
-$msi_source = "https://downloads.puppetlabs.com/windows/puppet7/puppet-agent-7.20.0-x64.msi"
+$msi_source = "https://downloads.puppetlabs.com/windows/puppet7/puppet-agent-7.26.0-x64.msi"
 $msi_dest = "C:\tmp\puppet-agent-x64.msi"
 
 # Start the agent installation process and wait for it to end before continuing.
